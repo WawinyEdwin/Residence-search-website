@@ -1,0 +1,1 @@
+<!-- feed data from the user bookings related with the said relation-->

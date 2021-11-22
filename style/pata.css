@@ -1,0 +1,260 @@
+.form-signin
+{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    margin-top:280px;
+
+    background-color:#F5F5F5;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+#heading
+{
+    padding-bottom: 20px;
+}
+
+#svg {
+    width: 100%;
+    background-size: cover;
+    height: 0;
+    padding: 0; /* reset */
+    padding-bottom: calc(100% * 3 / 4);
+   }
+
+.login{
+    margin-top: 60px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#div {
+    display:block;
+}
+
+.form-group {
+    padding: 25px;
+}
+
+#image {
+    max-width:300px;
+}
+
+.card {
+    background-color: #f8f9fa;
+}
+
+.navbar-toggler{
+    color: black;
+    background-color:#f8f9fa;
+}
+
+#body {
+    direction: ltr;
+    line-height: 1.42857143;
+}
+
+.navbar {
+    background-color: #17a2b8;
+    position:relative;
+    width: 100%;
+    top:0%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#search {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logout {
+    background-color:#17a2b8;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+/*flat page styling*/
+#leftbox {
+    float:left; 
+    width:25%;
+    height:280px;
+}
+
+#middlebox{
+    float:left; 
+    width:50%;
+    height:280px;
+}
+
+#rightbox{
+    float:right;
+    width:25%;
+    height:280px;
+}
+  
+#link{
+    color:#f8f9fa;
+}
+
+.navbar-toggler {
+    color:#f8f9fa; 
+}
+
+#footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    background-color:#17a2b8;
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55%;
+    height: 50%;;
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: cornsilk;
+    font-display: optional;
+    color: black;
+
+}
+
+.icon {
+    color: black;
+}
+
+.mailist {
+    padding: 7px;
+    background-color:#17a2b8;
+    color: #f8f9fa;
+    width: 100%;
+    padding-bottom: 2.5rem;
+}
+
+.form-group input{
+    border-radius: 8px;
+}
+
+.text-muted {
+    color:#20c997 ;
+}
+
+/*navigation for the sidebar in admin pages*/
+.sidenav{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #17a2b8;
+   overflow-x: hidden;
+    padding-top: 40px;
+    transition: 0.2s;
+}
+
+#baton {
+    color:#f8f9fa;
+    background-color:  #17a2b8;
+}
+
+.sidenav h4{
+    padding: 10px 8px 8px 37px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav h5:hover {
+    color:#f1f1f1;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height : 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a{font-size: 18px;}
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980b9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#f8f9fa;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: list-item;
+}
+
+.dropdown-content a:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+
+.show {
+    display: block;
+} 
